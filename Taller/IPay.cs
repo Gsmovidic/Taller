@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Taller
 {
-     public abstract class Product
+    public interface IPay
     {
 
-
+       public decimal ValueToPay();
     }
 }
